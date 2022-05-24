@@ -23,7 +23,7 @@
 <body><noscript>You need to enable JavaScript to run this app.</noscript>
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
-          <img class="navbar-brand" routerLink="" src="\assets\img\Logo.png" alt="" width="auto" height="auto" class="d-inline-block align-text-top" />
+          <img class="navbar-brand" routerLink="" src="https://iamythbuster.mde.epf.fr\assets\img\Logo.png" alt="" width="auto" height="auto" class="d-inline-block align-text-top" />
           <a class="nav-title">IA MYTH BUSTER</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,22 +31,22 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mb-5">
               <li class="nav-item">
-                <a class="nav-link active" routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Accueil</a>
+                <a href="https://iamythbuster.mde.epf.fr">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" routerLink="Kit" routerLinkActive="active-link">Kit</a>
+                <a href="https://iamythbuster.mde.epf.fr/Kit">Kit</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" routerLink="Enseignant" routerLinkActive="active-link">Enseignant</a>
+                <a href="https://iamythbuster.mde.epf.fr/Enseignant">Enseignant</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" routerLink="Pour aller plus loin" routerLinkActive="active-link">Pour aller plus loin</a>
+                <a href="https://ia-myth-buster.mde.epf.fr/Pour%20aller%20plus%20loin">Pour aller plus loin</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" routerLink="A propos de nous" routerLinkActive="active-link">A propos de nous</a>
+                <a href="https://ia-myth-buster.mde.epf.fr/A%20propos%20de%20nous">A propos de nous</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" routerLink="Faq" routerLinkActive="active-link">FAQ</a>
+                <a href="https://iamythbuster.mde.epf.fr/Faq">FAQ</a>
               </li>
             </ul>
           </div>

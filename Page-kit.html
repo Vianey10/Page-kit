@@ -18,7 +18,94 @@
         charset="UTF-8"></script>
     <script defer="defer" src="/static/js/main.2e1a8a3e.js"></script>
     <link href="/static/css/main.38e365c5.css" rel="stylesheet">
+
+    <style>
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: var(--secondary-color);
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar-main
+{
+    padding-top: 100%; 
+}
+.nav-title
+{
+    color: var(--primary-color);
+    font-weight: bold;
+    padding-left: 30%;
+    padding-top: 5%;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+.footer
+{
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color:rgb(115,63,115);
+    padding: 20px 10px;
+}
+
+h1 
+{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+p 
+{
+    color: #fff;
+    font-size: 12px;
+}
+a 
+{
+    color: #fff;
+    text-decoration: underline;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+a:hover 
+{
+    color: black;
+    font-weight: bold;
+}
+i 
+{
+    padding: 0px 3px;
+}
+.title
+{
+    position: absolute;
+    left: 44.72%;
+
+    top: 52.23%;
+    bottom: 23.74%;
+
+    font-family: 'Unna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 41px;
+
+/* or 225% */
+text-align: center;
+text-transform: uppercase;
+}
+
+
+    </style>
+
 </head>
+
 
 <body><noscript>You need to enable JavaScript to run this app.</noscript>
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
@@ -28,7 +115,8 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+
+          <div class="collapse navbar-collapse test" id="navbarNav">
             <ul class="navbar-nav mb-5">
               <li class="nav-item">
                 <a href="https://ia-myth-buster.mde.epf.fr">Accueil</a>
@@ -52,6 +140,7 @@
           </div>
         </div>
       </nav>
+
 
     <div id="root"></div>
 
